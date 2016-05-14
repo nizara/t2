@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+  
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-resource/angular-resource.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="styles/main.css">
+
+    <script src="scripts/app/samplectrl/sample.js"></script>
+    <script src="scripts/app/app.js"></script>
+    <script src="scripts/app/samplectrl/sample.controller.js"></script>
+    <script src="scripts/app/aboutctrl/about.controller.js"></script>
+
+  </head>
+  <body ng-app="myapp">
+
+    <div class="header">
+      header
+    </div>
+
+    <div >
+    <div ng-view=""></div>
+    </div>
+
+    <div class="footer">
+     footer
+    </div>
+
+</body>
+</html>
